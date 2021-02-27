@@ -63,17 +63,17 @@ instagram, yt, groupLink, memberLimit
 const vcard = 'BEGIN:VCARD\n'
             + 'VERSION:3.0\n'
             + 'FN:Farhan\n'
-            + 'ORG:Creator FXC7;\n'
-            + 'TEL;type=CELL;type=VOICE;waid=628311800241:+62 831-1800-241\n'
+            + 'ORG:Creator Lyan;\n'
+            + 'TEL;type=CELL;type=VOICE;waid=5531989851142:+55 31 98985-1142\n'
             + 'END:VCARD'
 
-prefix = "_"
-name = "~ SCREAMO | B O T"
+prefix = "!"
+name = "~ L Y A N| B O T"
 rdaftar = "OBRIGADO POR SE REGISTRAR😁"
 rmenu = "Olá amigos do LORDEBOT👋"
 limitt = 50
 ban = []
-userpremium = ["821074417113@s.whatsapp.net"] //ubah nomer kalian
+userpremium = ["5531989851142@s.whatsapp.net"] //ubah nomer kalian
 
 function kyun(seconds){
   function pad(s){
@@ -158,7 +158,7 @@ const getRegisteredRandomId = () => {
 			const content = JSON.stringify(mek.message)
 			const from = mek.key.remoteJid
 			const type = Object.keys(mek.message)[0]
-			const FarhanGans = ["821074417113@s.whatsapp.net"] // apenas mude esta tudo bem
+			const FarhanGans = ["5531989851142@s.whatsapp.net"] // apenas mude esta tudo bem
 			const farhan = mek.message.conversation
 			const insom = from.endsWith('@g.us')
 			const nameReq = insom ? mek.participant : mek.key.remoteJid
@@ -1180,7 +1180,7 @@ const getRegisteredRandomId = () => {
                          text: ress,
                          contextInfo: {mentionedJid: [nomor]},
                      }
-                    client.sendMessage('821074417113@s.whatsapp.net', options, text, {quoted: mek})
+                    client.sendMessage('5531989851142@s.whatsapp.net', options, text, {quoted: mek})
                     reply('SUA SOLICITAÇÃO chegou ao proprietário BOT, Requests palsu/main2 tidak akan ditanggapi.')
                     break
 				case 'meme':
